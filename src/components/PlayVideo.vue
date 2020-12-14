@@ -9,7 +9,7 @@
       </div>
       <div class="video">
         <iframe
-          :src="playConfig.videoUrl"
+          src="playConfig.videoUrl"
           frameborder="0"
           allowfullscreen=""
         ></iframe>
@@ -48,7 +48,7 @@ export default {
         status: false,
         title: this.playConfig.title
       }
-      this.$dispatch('play', config)
+      this.$emit('play', config)
     }
   },
   props: {

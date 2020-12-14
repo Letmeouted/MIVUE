@@ -77,6 +77,7 @@ export default {
     GoodsRight
   }
 }
+
 </script>
 
 <style lang="less" scoped>

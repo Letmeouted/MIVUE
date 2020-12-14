@@ -7,6 +7,7 @@
     <goods></goods>
     <tempfooter></tempfooter>
     <play-video :play-config="playConfig"></play-video>
+    <slide-bar></slide-bar>
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import TopSub from './components/TopSub'
 import Goods from './components/Goods'
 import Footer from './components/Footer'
 import PlayVideo from './components/PlayVideo'
+import SlideBar from './components/SlideBar'
 export default {
   data () {
     return {
@@ -41,7 +43,8 @@ export default {
     TopSub,
     Goods,
     'tempfooter': Footer,
-    'play-video': PlayVideo
+    PlayVideo,
+    SlideBar
   }
 }
 </script>

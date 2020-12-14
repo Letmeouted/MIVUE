@@ -14,7 +14,7 @@
     <banner-box-5></banner-box-5>
     <goods-ambitus></goods-ambitus>
     <banner-box-6></banner-box-6>
-    <video1></video1>
+    <videos></videos>
   </div>
 </template>
 <script>
@@ -49,7 +49,7 @@ export default {
     BannerBox5,
     GoodsAmbitus,
     BannerBox6,
-    'video1': Video
+    'videos': Video
   }
 }
 </script>
