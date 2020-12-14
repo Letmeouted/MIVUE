@@ -1,6 +1,7 @@
 # demo1
 
-> A Vue.js project
+> A Vue.js project(使用vue框架模仿小米官网主界面)
+vue + Elementui
 
 ## Build Setup
 
