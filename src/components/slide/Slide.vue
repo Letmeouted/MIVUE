@@ -19,7 +19,7 @@
         style="overflow-y"
       >
         <a :href="item.sourceUrl" target="_blank">
-          <img v-bind:src="item.imgUrl" alt="" />
+          <img class="lazyload" v-lazy="item.imgUrl" alt="" />
         </a>
       </el-carousel-item>
     </el-carousel>

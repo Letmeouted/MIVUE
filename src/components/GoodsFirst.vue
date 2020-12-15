@@ -13,7 +13,7 @@
       <div class="boxs-content clearfix">
         <div class="box-left">
           <a href="https://www.mi.com/mixalpha" target="_blank">
-            <img
+            <img class="lazyload"
               src="//cdn.cnbj1.fds.api.mi-img.com/mi-mall/574c6643ab91c6618bfb2d0e2c761d0b.jpg?thumb=1&w=234&h=614&f=webp&q=90"
               alt=""
             />
@@ -23,7 +23,7 @@
           <ul class="box-list">
             <li class="box-item" v-for="good in goods" :key="good.index">
               <a :href="good.sourceUrl" target="_blank">
-                <img :src="good.imgUrl" alt="" />
+                <img class="lazyload" v-lazy="good.imgUrl" alt="" />
                 <h3 class="box-title">{{ good.title }}</h3>
               </a>
               <p class="box-desc">

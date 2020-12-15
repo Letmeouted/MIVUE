@@ -2,12 +2,11 @@
   <ul class="goods-left">
     <li class="goods-left-item item-top" v-for="goods in leftGoods" :key="goods.inedx">
       <a :href="goods.sourceUrl" target="_blank">
-        <img :src="goods.imgUrl" alt="" />
+        <img class="lazyload" v-lazy="goods.imgUrl" alt="" />
       </a>
     </li>
   </ul>
 </template>
-
 <script>
 export default {
   props: {

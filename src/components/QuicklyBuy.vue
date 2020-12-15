@@ -24,7 +24,7 @@
     </div>
     <div class="flashsale-countdown span4 countdown1">
       <div class="round">00:00 场</div>
-      <img src="../assets/img/img.png" alt="小米闪购" />
+      <img class="lazyload" src="../assets/img/img.png" alt="小米闪购" />
       <div class="desc">本场已结束</div>
       <div class="countdown2 clearfix">
         <span>00</span><i>:</i><span>00</span><i>:</i><span>00</span>
@@ -38,7 +38,7 @@
           :key="item.index"
         >
           <a :href="item.sourceUrl" target="_blank">
-            <img class="item-image" :src="item.imgUrl" alt="" />
+            <img class="lazyload item-image" v-lazy="item.imgUrl" alt="" />
             <h3 class="item-name">{{ item.name }}</h3>
             <p class="item-desc">
               {{ item.desc }}

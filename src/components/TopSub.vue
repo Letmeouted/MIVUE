@@ -57,7 +57,7 @@
           class="sub-item"
           target="_blank"
         >
-          <img
+          <img class="lazyload"
             src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e5f20a62c3d5b3d6806bd51ab6c5dd12.jpg?w=632&h=340"
             alt=""
           />
@@ -69,7 +69,7 @@
           target="_blank"
           class="sub-item"
         >
-          <img
+          <img class="lazyload"
             src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8a43378b96501d7e227a9018fe2668c5.jpg?w=632&h=340"
             alt=""
           />
@@ -81,7 +81,7 @@
           target="_blank"
           class="sub-item"
         >
-          <img
+          <img class="lazyload"
             src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/793913688bfaee26b755a0b0cc8575fd.jpg?w=632&h=340"
             alt=""
           />

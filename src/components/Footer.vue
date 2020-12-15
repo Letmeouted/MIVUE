@@ -194,7 +194,7 @@
                   <img
                     src="//cdn.cnbj1.fds.api.mi-img.com/staticsfile/global/wx-img.png"
                     alt=""
-                    class="imgout"
+                    class="imgout lazyload"
                   />
                 </a>
               </div>
@@ -284,20 +284,20 @@
           </div>
           <div class="info-links">
             <a href="//privacy.truste.com/privacy-seal/validation?rid=4fc28a8c-6822-4980-9c4b-9fdc69b94eb8&lang=zh-cn" target="_blank">
-              <img src="//i1.mifile.cn/f/i/17/site/truste.png" alt="">
+              <img class="lazyload" src="//i1.mifile.cn/f/i/17/site/truste.png" alt="">
             </a>
             <a href="//search.szfw.org/cert/l/CX20120926001783002010" target="_blank">
-              <img src="//s01.mifile.cn/i/v-logo-2.png" alt="">
+              <img class="lazyload" src="//s01.mifile.cn/i/v-logo-2.png" alt="">
             </a>
             <a href="//ss.knet.cn/verifyseal.dll?sn=e12033011010015771301369&ct=df&pa=461082" target="_blank">
-              <img src="//s01.mifile.cn/i/v-logo-1.png" alt="">
+              <img class="lazyload" src="//s01.mifile.cn/i/v-logo-1.png" alt="">
             </a>
             <a href="//www.mi.com/service/buy/commitment/" target="_blank">
-              <img src="//i8.mifile.cn/b2c-mimall-media/ba10428a4f9495ac310fd0b5e0cf8370.png" alt="">
+              <img class="lazyload" src="//i8.mifile.cn/b2c-mimall-media/ba10428a4f9495ac310fd0b5e0cf8370.png" alt="">
             </a>
             <a href="https://webcert.cnmstl.net/cert/grade?sn=3af21034e35011eab3ea00163e068ceb" target="_blank">
-              <img src="https://cnbj1.fds.api.xiaomi.com/b2c-misite-activity/f1ee261b96ae71e845efba398efeca02.png" alt="" class="img1">
-              <img src="https://cnbj1.fds.api.xiaomi.com/b2c-misite-activity/5061f007064f49828777ccc52c0af26f.png" alt="" class="img2">
+              <img  src="https://cnbj1.fds.api.xiaomi.com/b2c-misite-activity/f1ee261b96ae71e845efba398efeca02.png" alt="" class="img1 lazyload">
+              <img  src="https://cnbj1.fds.api.xiaomi.com/b2c-misite-activity/5061f007064f49828777ccc52c0af26f.png" alt="" class="img2 lazyload">
             </a>
           </div>
           <div class="slogan ir">

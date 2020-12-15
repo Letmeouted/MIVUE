@@ -18,7 +18,7 @@
           :key="item.index"
         >
           <div class="item-top">
-            <img :src="item.imgUrl" alt="" />
+            <img class="lazyload" v-lazy="item.imgUrl" alt="" />
             <span class="play">
               <i class="fa fa-play"></i>
             </span>

@@ -7,8 +7,11 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import App from './App'
 import 'jquery'
+import VueLazyload from 'vue-lazyload'
+import 'lazysizes'
 /* eslint-disable no-new */
 Vue.use(ElementUI)
+Vue.use(VueLazyload)
 new Vue({
   el: '#app',
   template: '<App/>',

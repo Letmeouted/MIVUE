@@ -22,7 +22,7 @@
         >
           <li class="category-goods" v-for="item in goods" :key="item.index">
             <a class="goods-link" :href="item.sourceUrl" target="_blank">
-              <img :src="item.imgUrl" alt="" width="40" height="40" />
+              <img v-lazy="item.imgUrl" alt="" width="40" height="40" />
               <div class="text-name">
                 {{ item.name }}
               </div>

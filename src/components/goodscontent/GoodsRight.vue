@@ -5,7 +5,7 @@
         <template v-if="index < currGoods.length - 1">
           <li class="goods-right-item">
             <a :href="goods.sourceUrl" target="_blank">
-              <img :src="goods.imgUrl" alt="" />
+              <img class="lazyload" v-lazy="goods.imgUrl" alt="" />
               <h3 class="goods-title">{{ goods.title }}</h3>
             </a>
             <p class="goods-desc">
@@ -30,7 +30,7 @@
                 </h3>
                 <span class="price"> {{ lastGoods.price }}元 </span>
               </div>
-              <img class="small-img" :src="lastGoods.imgUrl" alt="" />
+              <img class="lazyload small-img" v-lazy="lastGoods.imgUrl" alt="" />
             </a>
           </li>
           <li class="item-small read-more">

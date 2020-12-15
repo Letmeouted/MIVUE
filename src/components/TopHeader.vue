@@ -52,7 +52,7 @@
       <ul class="menus clearfix">
         <li class="product" v-for="item in currentPhones" :key="item.index">
           <a :href="item.sourcePath">
-            <img :src="item.imgUrl" alt="" class="product-img" />
+            <img v-lazy="item.imgUrl" alt="" class="product-img" />
           </a>
           <div class="product-name">{{ item.name }}</div>
           <div class="product-price">
