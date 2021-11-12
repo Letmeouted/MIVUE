@@ -1,6 +1,6 @@
-# demo1
+# MIVUE
 
-> A Vue.js project(使用vue框架模仿小米官网主界面)
+> A Vue.js project(使用vue框架模仿小米官网主界面)Cancel changes
 vue + Elementui
 
 ## Build Setup
